@@ -30,7 +30,7 @@ function api() {
 
 
 function getKeywords() {
-    var words = $('#keywords').val();
+    var words = $('#keywords').val().toLowerCase();
     var arr = words.split(" ");
     var paraSting = "";
     for (var i = 0; i < arr.length; i++) {
@@ -50,7 +50,14 @@ function apiCall() {
     $.ajax({
         url: url
     }).then(function (data) {
+        $('.spinner').addClass('display-none');
         console.log(data)
+        //Check if there is no data
+        if(data.name === null || data.length == 0){
+            console.log("no data");
+            $('#result-data').append($('.no-data'));
+            return;
+        }
         for (var i = 0; i < data.length; i++) {
             var data_obj = data[i];
             var card = refcard.clone();

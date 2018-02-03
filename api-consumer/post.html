@@ -11,7 +11,7 @@
     <script type="text/javascript">
         var q = [
         {
-            "name": "SAMHSA’s National Helpline",
+            "name": "SAMHSA's National Helpline",
             "description": "SAMHSA’s National Helpline is a free, confidential, 24/7, 365-day-a-year treatment referral and information service (in English and Spanish) for individuals and families facing mental and/or substance use disorders.",
             "websites": [
                 "https://www.samhsa.gov/find-help/national-helpline"
@@ -27,6 +27,8 @@
             "keywords": [
                 "mental",
                 "disorder",
+                "depression",
+                "english",
                 "24/7",
                 "abuse",
                 "SAMHSA",
@@ -73,7 +75,7 @@
             "national": true,
             "physical_locations": [
                 {
-                    "name": "East End Area of Narcotics Anonymous",
+                    "name": "701 Smithfield St",
                     "location": [
                         {
                             "lon": 0,
@@ -137,7 +139,6 @@
                 "crisis"
             ]
         },
-        
         {
             "name": "resolve Crisis Services",
             "description": "Emergency care service in Pittsburgh, Pennsylvania.",
@@ -153,7 +154,7 @@
             "national": true,
             "physical_locations": [
                 {
-                    "name": "resolve Crisis Services",
+                    "name": "333 N Braddock Ave",
                     "location": [
                         {
                             "lon": 0,
@@ -166,6 +167,8 @@
             ],
             "keywords": [
                 "lifeline",
+                "law",
+                "enforcement",
                 "english",
                 "resolve",
                 "crisis"
@@ -213,7 +216,7 @@
             "national": true,
             "physical_locations": [
                 {
-                    "name": "Women's Shelter & Center of Greater Pittsburgh",
+                    "name": "P.O. Box 9024",
                     "location": [
                         {
                             "lon": 0,
@@ -246,13 +249,12 @@
                 {
                     "number": "8667820911",
                     "sms_capable": false
-                   
                 }
             ],
             "national": true,
             "physical_locations": [
                 {
-                    "name": "Crisis Center North",
+                    "name": "1006 Perry Hwy",
                     "location": [
                         {
                             "lon": 0,
@@ -404,9 +406,9 @@
         }
     ];
         var url = "http://127.0.0.1:5000/resources";
-        var url1 = "https://sheltered-peak-75112.herokuapp.com/resources";
+        var url1 = "https://reachoutapi.herokuapp.com/resources";
 
-        $.post(url, JSON.stringify(q), function (data, status) {
+        $.post(url1, JSON.stringify(q), function (data, status) {
             alert("Data: " + data + "\nStatus: " + status);
         });
     </script>

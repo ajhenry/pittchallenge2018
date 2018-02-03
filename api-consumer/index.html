@@ -66,7 +66,7 @@
                             </div>
 
                             <div class="row justify-content-center">
-                                    <div class="col">
+                                <div class="col">
                                     <p></p>
                                     <button class="call-api btn btn-outline-primary change-page-forward" type="button">
                                         Don't use my location
@@ -93,9 +93,12 @@
             </div>
         </section>
 
-        <section id="cards" class="w-100 d-flex flex-column-reverse justify-content-center transitionInitial">
+        <section id="cards" class="w-100 d-flex flex-column justify-content-center transitionInitial">
             <div class="container">
                 <!-- Heading and slogan -->
+                <div class="spinner text-center">
+                    <i class="fa-5x fas fa-spinner fa-spin"></i>
+                </div>
                 <div id="result-data" class="text-center">
                     <div class="card-columns">
                         <!-- Reference card for jQuery -->
@@ -125,6 +128,12 @@
                                         <li class="list-group-item website-text"> https://suicidepreventionlifeline.org/</li>
                                     </a>
                                 </ul>
+                            </div>
+
+                            <!-- Reference for no data -->
+                            <div class="no-data">
+                                <h3>Unfortunely, no results were found</h3>
+                                <small>Try searching for broader terms or a different location</small>
                             </div>
                         </div>
                     </div>

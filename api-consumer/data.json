@@ -1,6 +1,6 @@
 [
     {
-        "name": "SAMHSA’s National Helpline",
+        "name": "SAMHSA's National Helpline",
         "description": "SAMHSA’s National Helpline is a free, confidential, 24/7, 365-day-a-year treatment referral and information service (in English and Spanish) for individuals and families facing mental and/or substance use disorders.",
         "websites": [
             "https://www.samhsa.gov/find-help/national-helpline"
@@ -16,6 +16,8 @@
         "keywords": [
             "mental",
             "disorder",
+            "depression",
+            "english",
             "24/7",
             "abuse",
             "SAMHSA",
@@ -62,7 +64,7 @@
         "national": true,
         "physical_locations": [
             {
-                "name": "East End Area of Narcotics Anonymous",
+                "name": "701 Smithfield St",
                 "location": [
                     {
                         "lon": 0,
@@ -141,7 +143,7 @@
         "national": true,
         "physical_locations": [
             {
-                "name": "resolve Crisis Services",
+                "name": "333 N Braddock Ave",
                 "location": [
                     {
                         "lon": 0,
@@ -154,6 +156,8 @@
         ],
         "keywords": [
             "lifeline",
+            "law",
+            "enforcement",
             "english",
             "resolve",
             "crisis"
@@ -201,7 +205,7 @@
         "national": true,
         "physical_locations": [
             {
-                "name": "Women's Shelter & Center of Greater Pittsburgh",
+                "name": "P.O. Box 9024",
                 "location": [
                     {
                         "lon": 0,
@@ -239,7 +243,7 @@
         "national": true,
         "physical_locations": [
             {
-                "name": "Crisis Center North",
+                "name": "1006 Perry Hwy",
                 "location": [
                     {
                         "lon": 0,
