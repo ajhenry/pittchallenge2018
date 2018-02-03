@@ -3,7 +3,7 @@
 $('.call-api').click(apiCall);
 
 function generateURL() {
-    var url = "http://reachoutapi.herokuapp.com/resources?";
+    var url = "https://reachoutapi.herokuapp.com/resources?";
 
     if (_city) {
         url += "city=" + _city + "&";
