@@ -1,0 +1,392 @@
+[
+    {
+        "name": "SAMHSA’s National Helpline",
+        "description": "SAMHSA’s National Helpline is a free, confidential, 24/7, 365-day-a-year treatment referral and information service (in English and Spanish) for individuals and families facing mental and/or substance use disorders.",
+        "websites": [
+            "https://www.samhsa.gov/find-help/national-helpline"
+        ],
+        "phone_numbers": [
+            {
+                "number": "18006624357",
+                "sms_capable": false
+            }
+        ],
+        "national": true,
+        "physical_locations": null,
+        "keywords": [
+            "mental",
+            "disorder",
+            "24/7",
+            "abuse",
+            "SAMHSA",
+            "free"
+        ]
+    },
+    {
+        "name": "Rehab Helpline",
+        "description": "Free & Confidential 24/7 Rehab Helpline Feel Hope Without Commitment",
+        "websites": [
+            "https://addictionresource.com/"
+        ],
+        "phone_numbers": [
+            {
+                "number": "8884595511",
+                "sms_capable": false
+            }
+        ],
+        "national": true,
+        "physical_locations": null,
+        "keywords": [
+            "lifeline",
+            "24/7",
+            "english",
+            "crisis",
+            "confidential",
+            "drug",
+            "alcohol",
+            "nonfree"
+        ]
+    },
+    {
+        "name": "East End Area of Narcotics Anonymous",
+        "description": "The East End Area of Narcotics Anonymous is a group of meetings serving the East End of Pittsburgh.",
+        "websites": [
+            "http://eastendarea.org/"
+        ],
+        "phone_numbers": [
+            {
+                "number": "18002738255",
+                "sms_capable": false
+            }
+        ],
+        "national": true,
+        "physical_locations": [
+            {
+                "name": "East End Area of Narcotics Anonymous",
+                "location": [
+                    {
+                        "lon": 0,
+                        "lat": 0,
+                        "city": "Pittsburgh",
+                        "state": "PA"
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            "meeting",
+            "alcohol",
+            "anonymous",
+            "free"
+        ]
+    },
+    {
+        "name": "National Suicide Prevention Lifeline",
+        "description": "The Lifeline provides 24/7, free and confidential support for people in distress, prevention and crisis resources for you or your loved ones, and best practices for professionals.",
+        "websites": [
+            "https://suicidepreventionlifeline.org/",
+            "https://twitter.com/800273TALK"
+        ],
+        "phone_numbers": [
+            {
+                "number": "18002738255",
+                "sms_capable": false
+            }
+        ],
+        "national": true,
+        "physical_locations": null,
+        "keywords": [
+            "lifeline",
+            "suicide",
+            "24/7",
+            "english",
+            "crisis"
+        ]
+    },
+    {
+        "name": "Suicide Prevention Resource Center",
+        "description": "Addressing Despair through Partnerships.",
+        "websites": [
+            "https://www.sprc.org/"
+        ],
+        "phone_numbers": [
+            {
+                "number": "18002738255",
+                "sms_capable": false
+            }
+        ],
+        "national": true,
+        "physical_locations": null,
+        "keywords": [
+            "lifeline",
+            "suicide",
+            "24/7",
+            "english",
+            "sprc",
+            "crisis"
+        ]
+    },
+    {
+        "name": "resolve Crisis Services",
+        "description": "Emergency care service in Pittsburgh, Pennsylvania.",
+        "websites": [
+            "http://www.upmc.com/Services/behavioral-health/resolve-crisis-services/Pages/default.aspx"
+        ],
+        "phone_numbers": [
+            {
+                "number": "8887968226",
+                "sms_capable": false
+            }
+        ],
+        "national": true,
+        "physical_locations": [
+            {
+                "name": "resolve Crisis Services",
+                "location": [
+                    {
+                        "lon": 0,
+                        "lat": 0,
+                        "city": "Pittsburgh",
+                        "state": "PA"
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            "lifeline",
+            "english",
+            "resolve",
+            "crisis"
+        ]
+    },
+    {
+        "name": "The National Domestic Violence Hotline",
+        "description": "Our highly-trained advocates are available 24/7/365 to talk confidentially with anyone experiencing domestic violence, seeking resources or information, or questioning unhealthy aspects of their relationship. ",
+        "websites": [
+            "http://www.thehotline.org/"
+        ],
+        "phone_numbers": [
+            {
+                "number": "18007997233",
+                "sms_capable": false
+            },
+            {
+                "number": " 18007873224",
+                "sms_capable": true
+            }
+        ],
+        "national": true,
+        "physical_locations": null,
+        "keywords": [
+            "domestic",
+            "abuse",
+            "hotline",
+            "free",
+            "confidential",
+            "relationship"
+        ]
+    },
+    {
+        "name": "Women's Shelter & Center of Greater Pittsburgh",
+        "description": "The Hotline is monitored 24-hours a day trained domestic abuse advocates who provide support and explain options to anyone who has experienced any type of abuse from a current or former partner.",
+        "websites": [
+            "https://www.wcspittsburgh.org/"
+        ],
+        "phone_numbers": [
+            {
+                "number": "4126878005",
+                "sms_capable": false
+            }
+        ],
+        "national": true,
+        "physical_locations": [
+            {
+                "name": "Women's Shelter & Center of Greater Pittsburgh",
+                "location": [
+                    {
+                        "lon": 0,
+                        "lat": 0,
+                        "city": "Pittsburgh",
+                        "state": "PA"
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            "women",
+            "domestic",
+            "abuse",
+            "hotline",
+            "free",
+            "confidential",
+            "relationship"
+        ]
+    },
+    {
+        "name": "Crisis Center North",
+        "description": "Crisis Center North, a domestic violence shelter in Pittsburgh, PA",
+        "websites": null,
+        "phone_numbers": [
+            {
+                "number": "4123645556",
+                "sms_capable": false
+            },
+            {
+                "number": "8667820911",
+                "sms_capable": false
+            }
+        ],
+        "national": true,
+        "physical_locations": [
+            {
+                "name": "Crisis Center North",
+                "location": [
+                    {
+                        "lon": 0,
+                        "lat": 0,
+                        "city": "Pittsburgh",
+                        "state": "PA"
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            "shelter",
+            "domestic",
+            "abuse",
+            "hotline",
+            "free",
+            "confidential"
+        ]
+    },
+    {
+        "name": "National Domestic Violence Hotline",
+        "description": "Staffed 24 hours a day by trained counselors who can provide crisis assistance and information about shelters, legal advocacy, health care centers, and counseling.",
+        "websites": [
+            "http://www.feminist.org/911/crisis.html"
+        ],
+        "phone_numbers": [
+            {
+                "number": "18007997233",
+                "sms_capable": false
+            },
+            {
+                "number": "18007873224",
+                "sms_capable": true
+            }
+        ],
+        "national": true,
+        "physical_locations": null,
+        "keywords": [
+            "hotline",
+            "women",
+            "domestic",
+            "abuse",
+            "24/7",
+            "free"
+        ]
+    },
+    {
+        "name": "Alcoholism & Drug Abuse Council",
+        "description": "Alcoholism treatment program in Goshen, New York",
+        "websites": [
+            "http://www.adacinfo.com/"
+        ],
+        "phone_numbers": [
+            {
+                "number": "8452949000",
+                "sms_capable": false
+            }
+        ],
+        "national": false,
+        "physical_locations": [
+            {
+                "name": "224 Main St A",
+                "location": [
+                    {
+                        "lon": 0,
+                        "lat": 0,
+                        "city": "Goshen",
+                        "state": "NY"
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            "program",
+            "alcohol",
+            "abuse",
+            "free",
+            "drug"
+        ]
+    },
+    {
+        "name": "Mountainside Treatment Center - New York",
+        "description": "Drug addiction treatment center in New York City, New York",
+        "websites": [
+            "https://mountainside.com/locations/new-york-city/"
+        ],
+        "phone_numbers": [
+            {
+                "number": "6469658080",
+                "sms_capable": false
+            }
+        ],
+        "national": false,
+        "physical_locations": [
+            {
+                "name": "347 west 36th street, 16th Floor",
+                "location": [
+                    {
+                        "lon": 0,
+                        "lat": 0,
+                        "city": "New York",
+                        "state": "NY"
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            "program",
+            "abuse",
+            "free",
+            "drug",
+            "clinic"
+        ]
+    },
+    {
+        "name": "St. Joseph's Addiction Treatment & Recovery Center",
+        "description": "Addiction treatment center in Saranac Lake, New York",
+        "websites": [
+            "http://www.stjoestreatment.org/"
+        ],
+        "phone_numbers": [
+            {
+                "number": "8778138647",
+                "sms_capable": false
+            }
+        ],
+        "national": false,
+        "physical_locations": [
+            {
+                "name": "159 Glenwood Drive",
+                "location": [
+                    {
+                        "lon": 0,
+                        "lat": 0,
+                        "city": "Saranac Lake",
+                        "state": "NY"
+                    }
+                ]
+            }
+        ],
+        "keywords": [
+            "program",
+            "addiction",
+            "abuse",
+            "free",
+            "drug",
+            "clinic"
+        ]
+    }
+]

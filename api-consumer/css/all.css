@@ -1,0 +1,64 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body{
+    position: relative;
+}
+
+#container{
+    height: 100%;
+    overflow-x:hidden;
+}
+
+.transitionInitial{
+    transform: translateX(100vw);
+}
+
+.transitionMiddle{
+    transition: transform 0.5s ease;
+     
+    transform: translateX(0vw);
+} 
+
+.transitionLeft{
+    transition: transform 0.5s ease;
+     
+    transform: translateX(-100vw);
+}
+
+.transitionRight{
+    transition: transform 0.5s ease;
+     
+    transform: translateX(100vw);
+}
+
+.h{
+    display: hidden;
+}
+
+.u{
+    display: block;
+}
+
+#sec1{
+    display: none;
+}
+
+.ofs{
+    overflow-y:scroll;
+}
+
+.display-none{
+    display:none;
+}
+
+#cards{
+    margin-top:10px;
+}

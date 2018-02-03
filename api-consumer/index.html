@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Transition</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/all.css" rel="stylesheet">
+
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="container" class="">
+        <!-- Landing Page -->
+        <section id="sec" class="w-100 position-absolute h-100 d-flex flex-column justify-content-center">
+            <div id="landing" class="container">
+                <!-- Heading and slogan -->
+                <div id="heading" class="text-center">
+                    <h1 class="font-weight-light">I need help with...</h1>
+                    <div class="row justify-content-center ">
+                        <div class="input-group col-lg-6 col-md-8 col-sm-10">
+                            <input id="keywords" type="text" class="form-control" placeholder="Addiction">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary change-page-forward" type="button">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="sec" class="w-100 position-absolute h-100 d-flex flex-column justify-content-center transitionInitial">
+            <div id="landing" class="container">
+                <div id="" class="text-center">
+                    <h1 class="font-weight-light">Location</h1>
+                    <small>Enter your zip for more accurate results</small>
+                    <p></p>
+                    <div class="row justify-content-center">
+                        <div id="zip-display" class="col-lg-4 col-md-5 col-sm-7">
+                            <div class="input-group ">
+                                <div class="input-group-prepend">
+                                    <button class="btn btn-outline-primary change-page-back" type="button">
+                                        <i class="material-icons align-middle">keyboard_arrow_left</i>
+                                    </button>
+                                </div>
+                                <input id="zip" type="number" class="form-control" placeholder="90210">
+
+                            </div>
+
+                            <div class="row justify-content-center">
+                                    <div class="col">
+                                    <p></p>
+                                    <button class="call-api btn btn-outline-primary change-page-forward" type="button">
+                                        Don't use my location
+                                        <i class="material-icons align-middle">keyboard_arrow_right</i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="city-state-display" class="input-group col-lg-6 col-md-8 col-sm-10 display-none">
+                            <div class="input-group-prepend">
+                                <button id="change-zip" class="btn btn-outline-danger" type="button">
+                                    <i class="material-icons align-middle">keyboard_arrow_left</i>
+                                </button>
+                            </div>
+                            <input id="city-state" type="text" class="form-control" min="00000" max="99999" placeholder="Palo Alto, California" readonly>
+                            <div class="input-group-append">
+                                <button class="call-api btn btn-outline-secondary change-page-forward" type="button">Next</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cards" class="w-100 d-flex flex-column-reverse justify-content-center transitionInitial">
+            <div class="container">
+                <!-- Heading and slogan -->
+                <div id="result-data" class="text-center">
+                    <div class="card-columns">
+                        <!-- Reference card for jQuery -->
+                        <div class="display-none">
+                            <div class="card reference-card">
+                                <div class="card-header">
+                                    <h3 class="place-name">National Suicide Prevention Lifeline</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text place-description">The Lifeline provides 24/7, free and confidential support for people in distress, prevention
+                                        and crisis resources for you or your loved ones, and best practices for professionals.</p>
+                                </div>
+
+                                <ul class="list-group list-group-flush phone-number-list">
+                                    <a class="phone-number-object" href="tel:18002738255">
+                                        <li class="list-group-item">
+                                            <i class="material-icons align-middle">phone</i>
+                                            <span class="phone-number">18002738255</span>
+                                        </li>
+                                    </a>
+                                </ul>
+                                <div class="card-body address-list">
+
+                                </div>
+                                <ul class="list-group list-group-flush website-list">
+                                    <a class="website-link" href="">
+                                        <li class="list-group-item website-text"> https://suicidepreventionlifeline.org/</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--End of Body container -->
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <!--<script src="vendor/popper.js/dist/popper.min.js"></script>-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Google Maps -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyCxZ5lMgLBUjo3SFO_C73F3BWxkyUB6_gM "></script>
+    <!-- Custom scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/api.js"></script>
+</body>
+
+</html>
